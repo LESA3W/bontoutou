@@ -1,46 +1,53 @@
-p.byweasel{
-
-	padding-left: 915px;
+p.byweasel {
 	font-family: Arial;
-	font-size: 30px;
-	
-	}
-	
-	
-	
-	h1{
-	
-		font-size: 80px;
-		padding-left:760px;
+	font-size: 30px;	
+}
+
+h1 {
+	font-size: 80px;
+	font-family: Arial;
+}
+
+p.fleche {
+	font-size: 20px;
+}
+
+.logo_instagram, a.paulcdm {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+a.paulcdm {
+	color: #000000;
+	text-decoration: underline;
+	font-family: Arial;
+	font-size:27px;
+}
+
+a.paulcdm:hover {
+	color: #0066fe;
+}
+
+.pageContainer {
+	text-align: center;
+}
+
+@media screen and (max-width: 1024px){
+	h1 {
+		font-size: 100px;
 		font-family: Arial;
-	
 	}
-	
-	img.bon_toutou{
-	
-		padding-left: 850px;
+}
+@media screen and (max-width: 768px){
+	h1 {
+		font-size: 50px;
+		font-family: Arial;
 	}
-	
-	p.fleche{
-		padding-left: 960px;
+}
+@media screen and (max-width: 568px){
+	h1 {
 		font-size: 20px;
-	}
-	
-	img.logo_instagram{
-		float: left;
-		padding-left: 900px;
-	}
-	
-	a.paulcdm{
-		color: #0077FE;
-		text-decoration: underline;
 		font-family: Arial;
-		font-size:27px;
-		padding-left: 10px;
-	
 	}
-	
-	a.paulcdm:hover{
-	
-		color: #00ADFE;
-	}
+}
